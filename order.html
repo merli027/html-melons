@@ -56,17 +56,20 @@
 
 
             <div>
-                <form>
-                    When should we deliver?
+                <fieldset>
+                    <legend>When should we deliver?</legend>
 
-                    <input type="radio" name="time" value="am">
-                    <label>Morning</label>
-                    <input type="radio" name="time" value="pm">
-                    <label>Evening</label>
-                    <input type="radio" name="time" value="any">
-                    <label>Any time</label>
+                    <input type="radio" name="time" value="am" id="am">
+                    <label for="am">Morning</label>
 
-                </form>
+                    <input type="radio" name="time" value="pm" id="pm">
+                    <label for="pm">Evening</label>
+
+                    <input type="radio" name="time" value="any" id="any">
+                    <label for="any">Any time</label>
+     
+
+                </fieldset>
             </div>
 
             <div>
@@ -82,16 +85,16 @@
             <div>
                 <form>
                     Subscribe to our newsletter
-                    <input type="checkbox" name="subscribe" value="yes">
-                    <label>Yes</label>
+                    <input type="checkbox" name="subscribe" value="yes", id="yes">
+                    <label for = "yes">Yes</label>
                 </form>
             </div>
 
-            <div>
+            <section>
                 <form>
                     <button type="submit">Submit Query</button>
                 </form>
-            </div>
+            </section>
 
     </body>
 
